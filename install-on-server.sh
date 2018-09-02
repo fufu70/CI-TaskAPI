@@ -15,9 +15,9 @@ COMMANDS[6]="mv TaskAPI/sql sql"
 COMMANDS[7]="sed -i 's/\/home\/vagrant/\/root/g' install/install.sh"
 
 # Run Installation
-COMMANDS[14]="bash install/install.sh"
-COMMANDS[15]="sudo mkdir /var/www/task_api/src/errors"
-COMMANDS[16]="sudo chown www-data:www-data -R /var/www/task_api/src"
+COMMANDS[8]="bash install/install.sh"
+COMMANDS[9]="sudo mkdir /var/www/task_api/src/errors"
+COMMANDS[10]="sudo chown www-data:www-data -R /var/www/task_api/src"
 
 n_elements=${#COMMANDS[@]}
 
